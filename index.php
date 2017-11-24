@@ -12,7 +12,7 @@ Password<input type="password" name="password">
 $uname=$_POST['username'];
 $pass=$_POST['password'];
 
-if($uname=="awesome"&&$pass=="123")
+if($uname=="Brad"&&$pass=="123")
 	echo "Login was Successful.";
 else
 	echo "invalid";
